@@ -130,8 +130,8 @@ console.log(days);
 //Exercise 2_4
 
 var array3 = [];
-array3.push("Дата: " + printDate(today) + ", час: " + printTime(today) + ", " + printDay(today) + ", " + getDaysInMonth(today.getMonth()+1, today.getFullYear()));
-array3.push("Дата: " + printDate(some_date) + ", час: " + printTime(some_date) + ", " + printDay(some_date) + ", " + getDaysInMonth(some_date.getMonth()+1, some_date.getFullYear()));
+array3.push("Дата: " + printDate(today) + ", час: " + printTime(today) + ", " + printDay(today) + ", " + getDaysInMonth(today.getMonth()+1, today.getFullYear()) + " дни");
+array3.push("Дата: " + printDate(some_date) + ", час: " + printTime(some_date) + ", " + printDay(some_date) + ", " + getDaysInMonth(some_date.getMonth()+1, some_date.getFullYear()) + " дни");
 
 console.log(array3);
 
