@@ -50,7 +50,11 @@ class Item {
 
 //Exercise 4
 class PrivatePerson {
-    
+    constructor(){}
+    getSalary(){
+        let salary = 1000;
+        return salary;
+    }
 }
 
 //Exercise 5
