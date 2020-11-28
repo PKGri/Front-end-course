@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Flutter&trade;</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/e8215443cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<section id="bar">
+		<p>Flutter</p>
+		<div id="searchbar">
+			<input id="search" placeholder="Search">
+			<button id="sbutton"><i class="fas fa-search"></i></button>
+		</div>
+	</section>
+	<div id="main">
+		<div>
+			<section id="profile">
+				<img id="bigpropic" src="Profile.png" alt="Profile Picture">
+				<label>Pavel Grigorov</label>
+				<div id="bottom">
+					<ul>
+						<li>
+							<label class="category">Posts</label>
+							<span class="value">2</span>
+						</li>
+						<li>
+							<label class="category">Reactions</label>
+							<span class="value">7</span>
+						</li>
+					</ul>
+					<button id="logout" onclick="window.location.href='index.html'">Logout</button>
+				</div>
+			</section>
+			<section id="feed">
+				<section>
+					<img id="smallestpropic" src="Profile.png" alt="Profile Picture">
+					<div id="commentbar">
+						<input id="saysomething" placeholder="Say Something">
+						<i id="posticon" class="far fa-comment-alt"></i>
+					</div>
+				</section>
+				<article class="post">
+					<img class="smallpropic" src="Profile.png" alt="Profile Picture">
+					<div>
+						<div class="top-of-post">
+							<div>
+								<label>Pavel</label>
+								<i class="fas fa-circle"></i>
+								<label class="time-of-posting">Time posted</label>
+							</div>
+							<i class="fas fa-times"></i>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							In fermentum, sem ac fermentum sagittis, lacus massa scelerisque
+							nisl, et pulvinar tortor est sollicitudin lectus. Vestibulum rutrum
+							ex enim. Praesent ultrices metus at lacus feugiat
+						</p>
+						<div class="likes">
+							<div class="thumbs-up">
+								<i class="far fa-thumbs-up"></i>
+								<span>5</span>
+							</div>
+							<div class="thumbs-down">
+								<i class="far fa-thumbs-down"></i>
+								<span>3</span>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="post">
+					<img class="smallpropic" src="Profile.png" alt="Profile Picture">
+					<div>
+						<div class="top-of-post">
+							<div>
+								<label>Pavel</label>
+								<i class="fas fa-circle"></i>
+								<label class="time-of-posting">Time posted</label>
+							</div>
+							<i class="fas fa-times"></i>
+						</div>
+						<p>
+							In fermentum, sem ac fermentum sagittis.
+						</p>
+						<div class="likes">
+							<div class="thumbs-up">
+								<i class="far fa-thumbs-up"></i>
+								<span>5</span>
+							</div>
+							<div class="thumbs-down">
+								<i class="far fa-thumbs-down"></i>
+								<span>3</span>
+							</div>
+						</div>
+					</div>
+				</article>
+			</section>
+		</div>
+	</div>
+</body>
+
+</html>

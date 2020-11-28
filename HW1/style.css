@@ -1,0 +1,366 @@
+* {
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+	font-size: 16px;
+}
+
+body, html {
+
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+#form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+form {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: white;
+	max-width: 32rem;
+	width: 90%;
+	max-height: 28rem;
+	height: 90%;
+	padding: 2.5rem;
+	border-radius: 10px;
+}
+
+form>div:first-of-type {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 5rem;
+}
+
+p {
+	margin: 0 0 0px;
+}
+
+p {
+	font-size: 36px;
+	color: #363636;
+}
+
+label[for] {
+	font-size: 20px;
+	font-weight: normal;
+	color: #848694;
+}
+
+input {
+	outline: 0;
+}
+
+.loginfo {
+	width: 100%;
+	padding: 30px 0 10px;
+	border-width: 0 0 2px;
+	border-color: rgb(215, 217, 244);
+}
+
+.loginfo:focus {
+	border-color: rgb(63, 80, 221);
+}
+
+input[type=button] {
+	width: 100%;
+	border: 0;
+	border-radius: 5rem;
+	background-color: rgb(84, 189, 214);
+	color: white;
+	font-size: 16px;
+}
+
+input[type=button]:active {
+	background-color: rgb(80, 160, 190);
+}
+
+a[href="registration.html"] {
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+#clickables {
+	align-self: flex-end;
+	max-width: 10rem;
+	width: 100%;
+}
+
+.clickable {
+	padding: 10px;
+}
+
+#bar {
+	display: flex;
+	padding: 0 1rem 0 2rem;
+	background-color: white;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
+	height: 3.25rem;
+}
+
+#searchbar {
+	max-width: 13rem;
+	width: 100%;
+	display: flex;
+	background-color: white;
+	align-items: center;
+}
+
+#search {
+	padding: 1rem 0 1rem 0.75rem;
+	border: 1px solid rgb(215, 217, 244);
+	border-radius: 1.75rem;
+	height: 1.75rem;
+	background: rgb(246, 247, 253);
+}
+
+#search:focus {
+	border: 1px solid rgb(63, 80, 221);
+}
+
+
+#sbutton {
+	position: relative;
+	left: -2rem;
+	background: none;
+	border: 0;
+}
+
+#sbutton:focus {
+	outline: 0;
+}
+
+label{
+	font-weight: bold;
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+}
+
+#main>div {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+}
+
+#profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background: white;
+	max-width: 18rem;
+	height: 13rem;
+	padding-top: 0.5rem;
+}
+
+#bigpropic {
+	width: 5.25rem;
+	height: 5.25rem;
+	border-radius: 50%;
+}
+
+#bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem 0 1rem;
+	height: 3.75rem;
+	width: 100%;
+	background: rgb(246, 247, 253);
+}
+
+ul {
+	display: flex;
+	padding: 0;
+}
+
+li{
+	display: grid;
+	margin-right: 0.5rem;
+}
+
+.category {
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+
+.value {
+	font-size: 1.125rem;
+	color: rgb(88, 194, 218);
+}
+
+#logout {
+	color:  rgb(88, 194, 218);
+	font-weight: bold;
+	border: 1px solid rgb(88, 194, 218);
+	border-radius: 1.75rem;
+	height: 1.75rem;
+	background: none;
+}
+
+#logout:focus {
+	outline: 0;
+}
+
+#logout:active {
+	background: rgb(224, 226, 240);
+}
+
+#feed {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 55rem;
+	margin-left: 0.5rem;
+}
+
+#feed>section:first-of-type {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 3rem;
+	width: 100%;
+	background-color: rgb(244, 252, 253);
+	padding: 0 0.5rem 0 0.5rem;
+}
+
+#smallestpropic {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+}
+
+#commentbar {
+	display: flex;
+	align-items: center;
+	width: 86%;
+}
+
+#saysomething {
+	width: 100%;
+	color: rgb(88, 194, 218);
+	padding: 1rem 0 1rem 0.75rem;
+	border: 1px solid rgb(215, 217, 244);
+	border-radius: 1.75rem;
+	height: 1.75rem;
+}
+
+#saysomething::placeholder {
+	color: rgb(88, 194, 218);
+	font-weight: bold;
+}
+
+#saysomething:focus {
+	border: 1px solid  rgb(88, 194, 218);
+}
+
+#posticon {
+	position: relative;
+	left: -2rem;
+	color: rgb(88, 194, 218);
+}
+
+.post {
+	display: flex;
+	width: 100%;
+	min-height: 7rem;
+	padding: 1rem;
+	border-top: 1px solid rgb(220, 220, 220);
+	background: white;
+}
+
+.post>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 0.75rem;
+	width: 100%;
+}
+
+.top-of-post {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.top-of-post>div {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.fa-circle {
+	margin: 0 0.1rem 0 0.4rem;
+	font-size: 0.4rem;
+	color:#848694
+}
+
+.fa-times {
+	color:#848694
+}
+
+.time-of-posting {
+	font-size: 0.875rem;
+	font-weight: normal;
+	color:#848694
+}
+
+.post p {
+	padding: 0.2rem 0 0.9rem;
+	font-size: 0.875rem;
+}
+
+.smallpropic {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+}
+
+.likes {
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+}
+
+@media only screen and (max-width: 890px) {
+	#main>div {
+		flex-direction: column;
+	}
+
+	#profile {
+		max-width: 100%;
+	}
+
+	#feed{
+		margin: 0;
+	}
+}
