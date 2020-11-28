@@ -224,6 +224,7 @@ li{
 	border-radius: 1.75rem;
 	height: 1.75rem;
 	background: none;
+	padding: 0 0.5rem 0 0.5rem;
 }
 
 #logout:focus {
@@ -345,12 +346,12 @@ li{
 	border-radius: 50%;
 }
 
-.like {
+.like, .cross{
 	border: 0;
 	background: none;
 }
 
-.like:focus {
+.like:focus, .cross:focus{
 	outline: 0;
 }
 
@@ -358,10 +359,18 @@ li{
 	color: #848694;
 }
 
+.cross:active {
+	color: black;
+}
+
 .likes {
 	display: flex;
 	justify-content: space-between;
 	width: 8rem;
+}
+
+button {
+	padding: 0;
 }
 
 @media only screen and (max-width: 890px) {
