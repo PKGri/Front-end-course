@@ -321,17 +321,17 @@ li{
 .fa-circle {
 	margin: 0 0.1rem 0 0.4rem;
 	font-size: 0.4rem;
-	color:#848694
+	color: #848694;
 }
 
 .fa-times {
-	color:#848694
+	color: #848694;
 }
 
 .time-of-posting {
 	font-size: 0.875rem;
 	font-weight: normal;
-	color:#848694
+	color: #848694;
 }
 
 .post p {
@@ -345,10 +345,23 @@ li{
 	border-radius: 50%;
 }
 
+.like {
+	border: 0;
+	background: none;
+}
+
+.like:focus {
+	outline: 0;
+}
+
+.like:active {
+	color: #848694;
+}
+
 .likes {
 	display: flex;
 	justify-content: space-between;
-	width: 30%;
+	width: 8rem;
 }
 
 @media only screen and (max-width: 890px) {
